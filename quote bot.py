@@ -7,7 +7,6 @@ with open('quotes.txt','r', encoding= 'UTF-8') as file:
         pass
     line_chosen = random.randint(1, line_number + 1)
 line = linecache.getline(r"quotes.txt", line_chosen)
-line = "\"" + line + "\"" + " - Andrew Tate"
 print(line)
 
 
